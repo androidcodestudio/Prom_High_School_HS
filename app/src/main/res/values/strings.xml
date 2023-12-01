@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Prom High School (H.S)</string>
+    <string name="titles">Titles</string>
+    <string name="your_score_is">Your score is :  </string>
+    <string name="out_of">Out of :</string>
+    <string name="done">Done</string>
+    <string name="sets">99</string>
+    <string name="about">PROM HIGH SCHOOL[H.S] Founded In 2006 is one of the most prestigious school situated in Salkia Howrah. The school is affliated to the West Bengal Board Of Secondary Education and West Bengal Council of Higher Secondary Education.
+This School acts as facilitator in accomplishing the aims, goals, purpose and criteria of West Bengal Board in shaping the future of its students.
+PROM HIGH SCHOOL [H.S.] gives the opportunity to the children of all sections of society irrespective of caste, creed or religion.
+This school serves a Higher Secondary multipurpose school with the facilities of Science, Technical, Commerce, and Fine Arts Stream. It also provides the facilities of laboratory, projector, co-curricular activities.</string>
+    <string name="aims">We thrive to give the best of knowledge to our students, who will be the future of tomorrow. Punctuality, discipline, education, physical development and moral values are the main aim of ours.
+
+The management, teachers and everyone of the school authority thrive to impart to the students the best of knowledge for their future endeavour. PROM HIGI SCHOOL [H.S.] aims both scholastic and non-scholastic domain of the students like punctuality, discipline, education, and moral values, physical development with academic excellence.</string>
+    <string name="objective">To recognize the needs of our students and sense them with the best.
+To develop the environment with modern equipments and imporve the teaching &amp; learning process.
+To bring forward effective teaching aids and latest teaching skills.
+To enhance with modern global educational system.
+To encourage the students to become a better human in their future.</string>
+    <string name="select_quality">Select Quality</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sing_out">Sing Out</string>
+    <string name="see_more">See More</string>
+    <string name="my_addresses">My Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="addres">Address</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_condition">Terms And Condition</string>
+    <string name="policy">The teaching and learning policy of PROM HIGH SCHOOL [H.S.] aims to ensure that the children at our school are provided with high quality learning experiences that lead to a consistent high level of pupil achievement. The management of PROM HIGH SCHOOL [H.S.] believes that children learn best when they :\n\nAre happy \n Are interested and motivated \n Achieve success and gain approval\nAre given tasks which match their ability \n Clearly understand the task\nAre confident, fell secure and are aware of boundaries\nAre challenged and stimulated\nWe strive to give the students an enivironment which is challenging and stimulating, peaceful and calm, happy and caring is well resourced, makes learning accessible, is encouraging and appreciative, is welcoming, provide equal opportunities and provides a positive equal opportunities and provides a positive working atmosphere.</string>
+    <string name="earn_prom_coin">Earn Prom Coin</string>
+    <string name="encrypted"> 🔒 Messages and calls are end-to-end encrypted. No one outside of this chat,not even Prom High School (H.S),Can read to them.Tap to learn more.</string>
+</resources>

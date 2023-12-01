@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/studentIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/studentIcon"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/whatsapp"
+        android:layout_toEndOf="@+id/userName"
+        android:text="Chicken Kasha"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/userPhone"
+        android:text="Phone Number: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/studentIcon"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Phone"
+        android:text="9735672070"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/userPhone"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/lastSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userPhone"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/editMenuItem"
+        android:layout_toEndOf="@+id/studentIcon"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/whatsapp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/whatsapp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:id="@+id/editMenuItem"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circularbordersolid"
+        android:padding="5dp"
+        android:layout_above="@+id/menuItemDivider"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/sms" />
+
+    <View
+        android:id="@+id/menuItemDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/lastSeen"
+        android:layout_marginTop="9dp"/>
+
+
+
+</RelativeLayout>
